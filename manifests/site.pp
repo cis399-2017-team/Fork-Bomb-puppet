@@ -15,8 +15,8 @@ node ip-10-0-3-222 {
 	include sshd
 }
 
-# FORKBOMB!! - Matt's instance
-node ip-10-0-3-181 {
+# FORKBOMB!!! - Matt's instance
+node ip-10-0-3-129 {
 	include sshd
 }
 
