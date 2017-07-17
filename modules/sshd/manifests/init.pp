@@ -7,6 +7,7 @@ class sshd {
 	service { 'sshd':
 		subscribe => File[sshdconfig],
 		require => Package['openssh-server'],
+		ensure => running,
 	}
 
 	file { 'sshdconfig':

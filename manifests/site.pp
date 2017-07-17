@@ -1,7 +1,13 @@
 
 # Fork-Bomb-pm - It's the puppet master...
 node ip-10-0-3-27 {
+	cron { "puppet update":
+		command => "cd /etc/puppet && git pull -q origin master",
+		user => root,
+		minute => "*/5",
+	}
 
+	include sshd
 }
 
 # ForkBombT - Talaba's instance
