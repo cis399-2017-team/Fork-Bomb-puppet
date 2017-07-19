@@ -25,3 +25,8 @@ node ip-10-0-3-195 {
 	include sshd, apache2
 }
 
+# Forkbomb-p2 - Chris's second instance
+node ip-10-0-3-243 {
+	include sshd, apache2
+}
+
