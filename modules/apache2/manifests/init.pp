@@ -22,6 +22,13 @@ class apache2 (
 			notify 	=> Service['apache-service'],
 		}
 
+	file 	{ 'index-page':
+			path 	=> $indexPage,
+			ensure 	=> file,
+			source 	=> $indexSource,
+			notify 	=> Service['apache-service'],
+		}
+
 	service { 'apache-service':
 			name 	=> $apacheName,
 			hasrestart =>	true,
