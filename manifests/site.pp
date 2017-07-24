@@ -30,3 +30,20 @@ node ip-10-0-3-243 {
 	include sshd, apache2
 }
 
+group { 'cis399':
+  ensure => 'present',
+  gid    => '502',
+}
+
+
+user { 'cnf':
+	ensure 			=> 'present',
+	home 			=> '/home/stevep20',
+	comment			=> 'Chris Friedrich',
+	groups			=> 'cis399',
+	password		=> '!!',
+	password_max_age	=> '99999',
+	password_min_age	=> '0',
+	shell			=> '/bin/bash',
+	uid			=> '501',
+}
