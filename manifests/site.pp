@@ -44,6 +44,7 @@ user { 'steve':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1025',
+  shell 	   => '/bin/bash',
 }
 
 group { 'cis399':
@@ -65,6 +66,7 @@ user { 'stevep20':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1002',
+  shell            => '/bin/bash',
 }
 
 user { 'menif':
@@ -76,6 +78,7 @@ user { 'menif':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1003',
+  shell            => '/bin/bash',
 }
         
 group { 'BinaryBoiz':
@@ -92,6 +95,7 @@ user { 'levishutts':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1004',
+  shell            => '/bin/bash',
 }
 
 user { 'cplachno':
@@ -103,6 +107,7 @@ user { 'cplachno':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1005',
+  shell            => '/bin/bash',
 }
 
 user { 'aziz94shh':
@@ -114,6 +119,7 @@ user { 'aziz94shh':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1006',
+  shell            => '/bin/bash',
 }
 
 group { 'ForkBomb':
@@ -131,6 +137,7 @@ user { 'cnf':
   password_min_age => '0',
   uid              => '1009',
   managehome       => true,
+  shell            => '/bin/bash',
 }
 
 user { 'pogrebinsky2010':
@@ -142,6 +149,7 @@ user { 'pogrebinsky2010':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1010',
+  shell            => '/bin/bash',
 }
 
 user { 'Vino':
@@ -153,6 +161,7 @@ user { 'Vino':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1011',
+  shell            => '/bin/bash',
 }
 
 group { 'HotShame':
@@ -169,7 +178,9 @@ user { 'houllette':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1024',
+  shell            => '/bin/bash',
 }
+
 
 user { 'james-dolan':
   ensure           => 'present',
@@ -180,6 +191,7 @@ user { 'james-dolan':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1013',
+  shell            => '/bin/bash',
 }
 
 group { 'SegmentationSquad':
@@ -196,6 +208,7 @@ user { 'slynch2':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1014',
+  shell            => '/bin/bash',
 }
 
 user { 'jeremy003':
@@ -207,6 +220,7 @@ user { 'jeremy003':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1015',
+  shell            => '/bin/bash',
 }
 
 user { 'mitchmeabe':
@@ -218,6 +232,7 @@ user { 'mitchmeabe':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1016',
+  shell            => '/bin/bash',
 }
 
 group { 'alphabet':
@@ -234,6 +249,7 @@ user { 'nsato10':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1017',
+  shell            => '/bin/bash',
 }
 
 user { 'mister_person':
@@ -245,6 +261,7 @@ user { 'mister_person':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1018',
+  shell            => '/bin/bash',
 }
 
 user { 'mheb':
@@ -256,6 +273,7 @@ user { 'mheb':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1019',
+  shell            => '/bin/bash',
 }
 
 group { 'HideousSnakes':
@@ -272,6 +290,7 @@ user { 'kaschaefer':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1007',
+  shell            => '/bin/bash',
 }
 
 user { 'nboyd':
@@ -283,6 +302,7 @@ user { 'nboyd':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1008',
+  shell            => '/bin/bash',
 }
 
 user { 'coletc':
@@ -294,6 +314,7 @@ user { 'coletc':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1020',
+  shell            => '/bin/bash',
 }
 
 group { 'TheFightingMongooses':
@@ -310,6 +331,7 @@ user { 'dholstege':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1021',
+  shell            => '/bin/bash',
 }
 
 user { 'jemin':
@@ -321,6 +343,7 @@ user { 'jemin':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1022',
+  shell            => '/bin/bash',
 }
 
 user { 'jsheabia':
@@ -332,5 +355,6 @@ user { 'jsheabia':
   password_max_age => '99999',
   password_min_age => '0',
   uid              => '1023',
+  shell            => '/bin/bash',
 }
 
